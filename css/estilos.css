@@ -1,0 +1,32 @@
+:root {
+  --marron-cuero: #8B5E3C;
+  --marron-oscuro: #3E2723;
+  --beige: #F5EBDD;
+  --mostaza: #C68B3D;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.btn-primary {
+  background-color: var(--marron-cuero);
+  border-color: var(--marron-cuero);
+}
+.navbar {
+  background-color: var(--beige) !important;
+}
+#inicio img {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+section img.w-100 {
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+#nosotros img {
+  max-height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
