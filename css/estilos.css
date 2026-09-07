@@ -37,11 +37,28 @@ section img.w-100 {
   object-position: center 64%;
 }
 #nosotros img {
-  max-height: 350px;
+ height: 350px;
   width: 100%;
   object-fit: cover;
   border-radius: 12px;
 }
+#contacto .btn {
+  background-color: var(--mostaza);
+  color: white;
+  border: none;
+}
+#banner {
+  background-color: var(--marron-clarito);
+}
+#nosotros {
+  background-color: var(--beige);
+}
 #productos {
   background-color: var(--beige);
+}
+#contacto {
+  background-color: var(--marron-cuero);
+}
+footer {
+  background-color: var(--marron-oscuro);
 }
